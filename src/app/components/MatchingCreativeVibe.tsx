@@ -61,9 +61,9 @@ function Quote() {
       transition={{
         opacity: { duration: 0.4, delay: 0.7 },
         scale: { duration: 0.4, delay: 0.7 },
-        x: { duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
-        y: { duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
-        rotate: { duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
+        x: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
+        y: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
+        rotate: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.7 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 44 44">
@@ -90,10 +90,10 @@ function Heart() {
       }}
       transition={{
         opacity: { duration: 0.4, delay: 0.1 },
-        scale: { duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
-        x: { duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
-        y: { duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
-        rotate: { duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
+        scale: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
+        x: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
+        y: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
+        rotate: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.1 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 43 44">
@@ -119,9 +119,9 @@ function Cat() {
       transition={{
         opacity: { duration: 0.4, delay: 0.2 },
         scale: { duration: 0.4, delay: 0.2 },
-        x: { duration: 5.8, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
-        y: { duration: 5.8, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
-        rotate: { duration: 5.8, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
+        x: { duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
+        y: { duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
+        rotate: { duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 0.2 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 43 43">
@@ -147,9 +147,9 @@ function Cake() {
       transition={{
         opacity: { duration: 0.4, delay: 0.5 },
         scale: { duration: 0.4, delay: 0.5 },
-        x: { duration: 6.2, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
-        y: { duration: 6.2, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
-        rotate: { duration: 6.2, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
+        x: { duration: 8.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
+        y: { duration: 8.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
+        rotate: { duration: 8.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 44 44">
@@ -175,9 +175,9 @@ function ThumbsUp() {
       transition={{
         opacity: { duration: 0.4, delay: 0.3 },
         scale: { duration: 0.4, delay: 0.3 },
-        x: { duration: 5.3, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
-        y: { duration: 5.3, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
-        rotate: { duration: 5.3, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
+        x: { duration: 7.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
+        y: { duration: 7.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
+        rotate: { duration: 7.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 44 45">
@@ -204,10 +204,10 @@ function Star() {
       }}
       transition={{
         opacity: { duration: 0.4, delay: 0.4 },
-        scale: { duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
-        x: { duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
-        y: { duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
-        rotate: { duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
+        scale: { duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
+        x: { duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
+        y: { duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
+        rotate: { duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 44 44">
@@ -233,9 +233,9 @@ function Soup() {
       transition={{
         opacity: { duration: 0.4, delay: 0.6 },
         scale: { duration: 0.4, delay: 0.6 },
-        x: { duration: 5.7, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
-        y: { duration: 5.7, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
-        rotate: { duration: 5.7, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
+        x: { duration: 7.2, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
+        y: { duration: 7.2, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
+        rotate: { duration: 7.2, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 43 44">
@@ -261,9 +261,9 @@ function Frown() {
       transition={{
         opacity: { duration: 0.4, delay: 0.35 },
         scale: { duration: 0.4, delay: 0.35 },
-        x: { duration: 6.3, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
-        y: { duration: 6.3, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
-        rotate: { duration: 6.3, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
+        x: { duration: 8.2, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
+        y: { duration: 8.2, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
+        rotate: { duration: 8.2, repeat: Infinity, ease: "easeInOut", delay: 0.35 },
       }}
     >
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 44 44">

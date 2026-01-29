@@ -35,18 +35,18 @@ function TextLine({ delay = 0, width = "100%" }: { delay?: number; width?: strin
       style={{ width }}
       initial={{ scaleX: 0, opacity: 0 }}
       animate={{ scaleX: 1, opacity: 1 }}
-      transition={{ delay, duration: 0.6, ease: "easeOut" }}
+      transition={{ delay, duration: 0.9, ease: "easeOut" }}
     >
       <motion.div
         className="absolute inset-0 bg-gradient-to-r from-transparent via-white/60 to-transparent"
         initial={{ x: "-100%" }}
         animate={{ x: "200%" }}
         transition={{
-          delay: delay + 0.6,
-          duration: 1.2,
+          delay: delay + 0.9,
+          duration: 2,
           ease: "easeInOut",
           repeat: Infinity,
-          repeatDelay: 1.5,
+          repeatDelay: 2.5,
         }}
       />
     </motion.div>
@@ -65,10 +65,10 @@ function TypewriterText() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            delay: index * 0.05,
-            duration: 0.1,
+            delay: index * 0.08,
+            duration: 0.15,
             repeat: Infinity,
-            repeatDelay: 3,
+            repeatDelay: 4,
           }}
         >
           {char === " " ? "\u00A0" : char}
@@ -90,9 +90,9 @@ function FloatingQuote({ position, delay }: { position: { left: string; top: str
       }}
       transition={{
         delay,
-        duration: 3,
+        duration: 4,
         repeat: Infinity,
-        repeatDelay: 2,
+        repeatDelay: 3,
       }}
     >
       <svg className="size-6" fill="none" viewBox="0 0 24 24">

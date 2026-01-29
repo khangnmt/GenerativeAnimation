@@ -12,7 +12,7 @@ export default function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentScreen((prev) => (prev + 1) % 4);
-    }, 4000);
+    }, 6000);
     
     return () => clearInterval(interval);
   }, []);

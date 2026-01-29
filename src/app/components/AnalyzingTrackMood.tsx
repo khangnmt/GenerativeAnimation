@@ -19,8 +19,8 @@ function Group() {
             opacity: 0.4,
           }}
           transition={{
-            delay: index * 0.1,
-            duration: 0.6,
+            delay: index * 0.15,
+            duration: 0.9,
             ease: "easeOut"
           }}
         >
@@ -30,11 +30,11 @@ function Group() {
             initial={{ x: "-100%" }}
             animate={{ x: "200%" }}
             transition={{
-              delay: index * 0.1 + 0.6,
-              duration: 1.5,
+              delay: index * 0.15 + 0.9,
+              duration: 2.2,
               ease: "easeInOut",
               repeat: Infinity,
-              repeatDelay: 2,
+              repeatDelay: 3,
             }}
           />
         </motion.div>
@@ -66,15 +66,15 @@ function Frame2() {
       }}
       transition={{
         y: {
-          delay: 0.3,
-          duration: 0.6,
+          delay: 0.5,
+          duration: 1.2,
           repeat: Infinity,
-          repeatDelay: 0.8,
+          repeatDelay: 1.5,
           ease: "easeInOut"
         },
         opacity: {
-          delay: 0.3,
-          duration: 0.3,
+          delay: 0.5,
+          duration: 0.5,
         }
       }}
     >
@@ -107,15 +107,15 @@ function Frame3() {
       }}
       transition={{
         y: {
-          delay: 0.5,
-          duration: 0.6,
+          delay: 0.7,
+          duration: 1.2,
           repeat: Infinity,
-          repeatDelay: 0.8,
+          repeatDelay: 1.5,
           ease: "easeInOut"
         },
         opacity: {
-          delay: 0.5,
-          duration: 0.3,
+          delay: 0.7,
+          duration: 0.5,
         }
       }}
     >
@@ -148,15 +148,15 @@ function Frame4() {
       }}
       transition={{
         y: {
-          delay: 0.7,
-          duration: 0.6,
+          delay: 0.9,
+          duration: 1.2,
           repeat: Infinity,
-          repeatDelay: 0.8,
+          repeatDelay: 1.5,
           ease: "easeInOut"
         },
         opacity: {
-          delay: 0.7,
-          duration: 0.3,
+          delay: 0.9,
+          duration: 0.5,
         }
       }}
     >
@@ -190,15 +190,15 @@ function Frame5() {
       }}
       transition={{
         y: {
-          delay: 0.9,
-          duration: 0.6,
+          delay: 1.1,
+          duration: 1.2,
           repeat: Infinity,
-          repeatDelay: 0.8,
+          repeatDelay: 1.5,
           ease: "easeInOut"
         },
         opacity: {
-          delay: 0.9,
-          duration: 0.3,
+          delay: 1.1,
+          duration: 0.5,
         }
       }}
     >

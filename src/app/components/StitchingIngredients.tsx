@@ -40,10 +40,10 @@ function CircleElement({
       }}
       transition={{
         delay,
-        duration: 1.5,
+        duration: 2.2,
         ease: "easeInOut",
         repeat: Infinity,
-        repeatDelay: 2,
+        repeatDelay: 3,
       }}
     >
       {icon}
@@ -61,8 +61,8 @@ function CenterCircle() {
         opacity: 1,
       }}
       transition={{
-        delay: 1.8,
-        duration: 0.6,
+        delay: 2.5,
+        duration: 0.8,
         ease: "easeOut",
       }}
     >
@@ -73,8 +73,8 @@ function CenterCircle() {
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}
         transition={{
-          delay: 2.4,
-          duration: 2,
+          delay: 3.3,
+          duration: 3,
           ease: "linear",
           repeat: Infinity,
         }}
@@ -117,8 +117,8 @@ function ConnectionLine({
       initial={{ pathLength: 0, opacity: 0 }}
       animate={{ pathLength: 1, opacity: 0.3 }}
       transition={{
-        delay: delay + 1.5,
-        duration: 0.6,
+        delay: delay + 2.2,
+        duration: 0.8,
         ease: "easeOut",
       }}
     />
@@ -141,10 +141,10 @@ function PulseRing({ delay }: { delay: number }) {
       }}
       transition={{
         delay,
-        duration: 2,
+        duration: 3,
         ease: "easeOut",
         repeat: Infinity,
-        repeatDelay: 1,
+        repeatDelay: 2,
       }}
     />
   );
